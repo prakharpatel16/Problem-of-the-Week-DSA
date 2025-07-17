@@ -32,8 +32,8 @@ int main() {
         cin>>nums[i];
     }
 
-    int result = findMin(nums);
-    cout<<result<<endl;
+    int Subarray_Sum = findMin(nums);
+    cout<<Subarray_Sum<<endl;
 
     return 0;
 }
