@@ -8,12 +8,6 @@
 
 Given an integer array `nums` and an integer `k`, return the **total number of subarrays** whose sum equals `k`.
 
-### Example:
-Input: nums = [1, 1, 1], k = 2
-Output: 2
-Explanation: [1,1] occurs twice.
-
-
 ## 💡 Approach: Prefix Sum + HashMap
 
 We use the idea of a **prefix sum** and track frequencies using a `unordered_map`.
@@ -25,5 +19,14 @@ We use the idea of a **prefix sum** and track frequencies using a `unordered_map
    - Update `presum += nums[i]`
    - Check if `(presum - k)` is in the map → it means a subarray with sum `k` ends here.
    - Update count and store `presum` in map.
-  
 
+### 📈 Time & Space Complexity
+
+| Complexity | Value        |
+|------------|--------------|
+| Time       | `O(N)`   |
+| Space      | `O(N)`       |
+
+### Explain Time and Space Complexity
+`O(N)` Time Complexity for Traversing in the Array.
+`O(N)` Space Complexity as we used HashMap in order to solve the problem.
