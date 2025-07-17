@@ -1,17 +1,61 @@
- Min In Sort Rotated Array    LEETCODE LINK : https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+# 🔍 Find Minimum in Rotated Sorted Array
 
-Approach (Binary Search):
-• Initialize low = 0, high = N - 1   // N is the size of the array
-• While low < high:
+**LeetCode Link**: [Click here](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+
+## 🧠 Problem Statement
+
+You are given a rotated sorted array (no duplicates). Your task is to find the minimum element in **O(log N)** time.
+
+Example:
+
+Input: [3, 4, 5, 1, 2]
+Output: 1
+
+---
+
+## 💡 Approach: Binary Search
+
+We use a **modified binary search** to efficiently locate the minimum element.
+
+### 🔁 Steps:
+
+1. **Initialize Pointers:**
+   - `low = 0`, `high = N - 1` (where `N` is the size of the array)
+
+2. **While `low < high`:**
+   - Compute `mid = (low + high) / 2`
+   - If `arr[mid] > arr[high]` → the **minimum is in the right half** → `low = mid + 1`
+   - Else → the **minimum is in the left half** (including mid) → `high = mid`
+
+3. **Return:** `arr[low]` (which points to the minimum)
+
+---
+
+### 📈 Time & Space Complexity
+
+| Complexity | Value        |
+|------------|--------------|
+| Time       | `O(log N)`   |
+| Space      | `O(1)`       |
 
 
+## 📊 Example Visualization
 
- Find mid = (low + high) / 2
- If arr[mid] > arr[high], the minimum is in the right half → low = mid +
- Else, the minimum is in the left half (including mid) → high = mid
- Return arr[low]
+Let's take the array:
 
 
- 
- Time Complexity: O(log N)    // logN Time Complexity because of Binary Search 
- Space Complexity: O(1)       // Constant Space Complexity as we are not using any extra space in order to solve the problem.
+### 🔍 Mid Calculations:
+
+| low | high | mid | arr[mid] | arr[high] | Action                  |
+|-----|------|-----|----------|-----------|--------------------------|
+| 0   | 6    | 3   | 7        | 2         | mid > high → low = mid+1 |
+| 4   | 6    | 5   | 1        | 2         | mid < high → high = mid  |
+| 4   | 5    | 4   | 0        | 1         | mid < high → high = mid  |
+
+🔚 Now `low == high == 4` → Minimum = `arr[4] = 0`
+
+
+## 📷 Visual Reference
+
+### 📌 Binary Search Decision Flow:
+![Binary Search Flow](https://user-images.githubusercontent.com/63854036/199297092-1c3e3894-e38d-4725-a8f2-f7b5eec5a4f4.png)
