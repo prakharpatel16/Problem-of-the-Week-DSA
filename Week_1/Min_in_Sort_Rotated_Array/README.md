@@ -53,9 +53,3 @@ Let's take the array:
 | 4   | 5    | 4   | 0        | 1         | mid < high → high = mid  |
 
 🔚 Now `low == high == 4` → Minimum = `arr[4] = 0`
-
-
-## 📷 Visual Reference
-
-### 📌 Binary Search Decision Flow:
-![Binary Search Flow](https://user-images.githubusercontent.com/63854036/199297092-1c3e3894-e38d-4725-a8f2-f7b5eec5a4f4.png)
