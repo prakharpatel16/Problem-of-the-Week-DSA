@@ -27,6 +27,6 @@ We use the idea of a **prefix sum** and track frequencies using a `unordered_map
 | Time       | `O(N)`   |
 | Space      | `O(N)`       |
 
-### Explain Time and Space Complexity
+### Explain Time and Space Complexity :
 `O(N)` Time Complexity for Traversing in the Array.
 `O(N)` Space Complexity as we used HashMap in order to solve the problem.
