@@ -10,6 +10,7 @@ Welcome to **Week 1** of DSA preparation. This folder contains curated problems 
 - **Goal:** Find the smallest element in a rotated sorted array.
 - **Solution File:** `Min_in_Sort_Rotated_Array.cpp`
 
+---
 
 ### ✅ Question 2: [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 - **Category:** Prefix Sum + HashMap
@@ -17,6 +18,7 @@ Welcome to **Week 1** of DSA preparation. This folder contains curated problems 
 - **Goal:** Count total subarrays whose sum is equal to `k`.
 - **Solution File:** `Subarray_Sum_Equals_K.cpp`
 
+---
 
 ### ✅ Question 3: Ruby Second House *(Hypothetical)*
 - **Category:** Dynamic Programming (House Robber Pattern)
