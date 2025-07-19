@@ -2,7 +2,7 @@
 
 **LeetCode Link**: [Click here](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
-## 🧠 Problem Statement
+## 🧠 Problem Statement :
 
 You are given a rotated sorted array (no duplicates). Your task is to find the minimum element in **O(log N)** time.
 
@@ -13,7 +13,7 @@ Output: 1
 
 ---
 
-## 💡 Approach: Binary Search
+## 💡 Approach: Binary Search :
 
 We use a **modified binary search** to efficiently locate the minimum element.
 
@@ -31,7 +31,7 @@ We use a **modified binary search** to efficiently locate the minimum element.
 
 ---
 
-### 📈 Time & Space Complexity
+### 📈 Time & Space Complexity :
 
 | Complexity | Value        |
 |------------|--------------|
@@ -39,7 +39,7 @@ We use a **modified binary search** to efficiently locate the minimum element.
 | Space      | `O(1)`       |
 
 
-## 📊 Example Visualization
+## 📊 Example Visualization :
 
 Let's take the array:
 
