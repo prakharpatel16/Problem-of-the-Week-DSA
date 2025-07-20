@@ -1,10 +1,8 @@
 # 📚 WEEK 1 – DSA Practice Questions
 
----
-
 Welcome to **Week 1** of DSA preparation. This folder contains curated problems focused on arrays, binary search, and prefix sums.
 
-## 🔖 Questions List
+## 🔖 Questions List :
 
 ### ✅ Question 1: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - **Category:** Binary Search
