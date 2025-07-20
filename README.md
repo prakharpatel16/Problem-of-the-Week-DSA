@@ -3,6 +3,7 @@
 Welcome to the **Problem of the Week** repository! 🧠  
 This repository is designed to help you stay consistent with DSA (Data Structures & Algorithms) practice through **weekly handpicked problems**.
 
+---
 
 ## 🚀 Objective
 
