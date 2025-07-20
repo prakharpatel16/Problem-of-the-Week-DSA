@@ -27,4 +27,4 @@ For each color in the current house:
 
 ---
 
-### Similar LeetCode -----> 🏠 Paint House II (LeetCode #265)
+### Similar LeetCode Question -----> 🏠 Paint House II (LeetCode #265)
