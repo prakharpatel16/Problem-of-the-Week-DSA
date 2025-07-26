@@ -16,7 +16,6 @@ Your task is to identify all valid step words from a given dictionary for a give
 - Second line: An integer `N` (number of words in the dictionary)
 - Next `N` lines: Each line contains one valid lowercase dictionary word.
 
-- 
 ---
 
 ## 🧠 Explanation
