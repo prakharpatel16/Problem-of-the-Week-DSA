@@ -64,5 +64,3 @@ Use **post-order traversal (DFS)** to:
 
 - **Time Complexity**: `O(N)` – Visit each node once.
 - **Space Complexity**: `O(H)` – Max depth of recursion stack (where H is tree height). Worst case: `O(N)`.
-
-### 🔳 Input Tree:
