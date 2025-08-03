@@ -66,14 +66,14 @@ If `dp[target] == true`, then there exists a subset with sum equal to half of th
 ---
 
 ### ⏱ Time Complexity
-## O(n × sum/2)
+### O(n × sum/2)
 
 ### 📦 Space Complexity
-## O(sum/2)
+### O(sum/2)
 
 ### 🔗 References
-## Leetcode #416 – Partition Equal Subset Sum
+### Leetcode #416 – Partition Equal Subset Sum
 
-## GeeksForGeeks – Partition Problem
+### GeeksForGeeks – Partition Problem
 
-## YouTube: TechDose – Partition Equal Subset Sum
+### YouTube: TechDose – Partition Equal Subset Sum
