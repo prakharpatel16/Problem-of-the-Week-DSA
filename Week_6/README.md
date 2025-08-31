@@ -22,7 +22,6 @@ Each problem includes the statement, example, approach, and complexity analysis.
 ---
 
 ## 🔢 Problem 3: Minimum Number of Perfect Squares to Sum to N
-- Base: `dp[0] = 0`.
 
 ### ⏱️ Complexity
 - **Time:** O(n * sqrt(n))  
@@ -36,9 +35,6 @@ Each problem includes the statement, example, approach, and complexity analysis.
 | 🎮 Misère Nim | Game Theory (XOR, parity) | Medium | Casework + Nim-sum |
 | 🌳 Max Path Sum in Tree | DFS, Recursion, DP on Trees | Hard | Post-order traversal |
 | 🔢 Min Perfect Squares | DP, Number Theory | Medium | Bottom-up DP |
-
----
-
 ## 📚 References
 - 📖 [LeetCode – Nim Game](https://leetcode.com/problems/nim-game/)  
 - 📖 [LeetCode – Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  
