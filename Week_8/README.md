@@ -33,5 +33,3 @@ You can assume that such an element always exists.
 
 **Time Complexity:** O(n)  
 **Space Complexity:** O(1)
-    return 0;
-}
